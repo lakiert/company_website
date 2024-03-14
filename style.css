@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#div-start{
+    background-color: rgb(39, 55, 77);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 30px;
+}
+
+#div-start a{
+    color: white;
+    text-align: center;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+#menu-container{
+    float: right;
+    overflow: hidden;
+    vertical-align: middle;
+    color: rgb(221, 230, 237);
+    padding-left: 20px;
+    width: 50vw;
+}
+
+#logo-phone-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 120px;
+}
+
+.contact-link:hover{
+    background-color: rgb(82, 109, 130);
+    border-radius: 10px;
+}
+.contact-link{
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#logo{
+    width: 400px;
+    height: 80px;
+    float: left;
+}
+
+#logo-container{
+    width: fit-content;
+    height: fit-content;
+}
+#phone-container{
+    vertical-align: middle;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+@media screen and (max-width: 1250px)
+{
+
+    #logo-phone-container{
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    #menu-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #div-start{
+        height: 160px;
+    }
+}
+
+/* @media screen and (max-width: 1100px)
+{
+    #menu-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #div-start{
+        height: 160px;
+    }
+} */
+
+@media screen and (max-width: 900px)
+{
+
+    #div-start{
+        height: 160px;
+    }
+    #logo{
+        width: 320px;
+        height: 64px;
+    }
+    #menu-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #tel{
+        font-size: 1.6rem;
+        padding-top: 15px;
+    }
+    #logo-phone-container{
+        height: 110px;
+    }
+
+    
+}
+
+@media screen and (max-width: 650px)
+{
+
+    #logo{
+        width: 240px;
+        height: 48px;
+    }
+    #logo-phone-container{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    #menu-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: none;
+        padding: none;
+    }
+    #div-start{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 1rem;
+        height: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 500px)
+{
+    #logo{
+        width: 200px;
+        height: 40px;
+    }
+    #div-start{
+        padding: 10px;
+    }
+    #div-start a{
+        font-size: 1rem;
+    }
+    #phone-container{
+        padding: none;
+        margin: none;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 300px)
+{
+    #logo-phone-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #div-start a{
+        font-size: .8rem;
+    }
+    #div-start{
+        height: fit-content;
+        padding: 0px;
+    }
+}
+
+
+
+#middle-content{
+    width: 100%;
+    background-color: rgb(13, 255, 0);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+#div-about-us{
+    background-color: rgb(190, 112, 227);
+    width: 100%;
+}
+
+#div-offer{
+    background-color: rgb(169, 79, 210);
+    width: 100%;
+}
+
+#div-contact-us{
+    background-color: rgb(121, 32, 161);
+    width: 100%;
+}
+
+
+#footer{
+    background-color: rgb(255, 128, 0);
+
+}
+
+h2{
+    text-align: center;
+}
