@@ -232,7 +232,7 @@ html, body{
 
 #middle-content{
     width: 100%;
-    background-color: rgb(13, 255, 0);
+    /* background-color: rgb(13, 255, 0); */
     display: flex;
     flex-direction: column;
     font-size: 1.3rem;
@@ -316,7 +316,9 @@ html, body{
 }
 
 
-
+#h2-contact{
+    padding-bottom: 50px;
+}
 #div-contact-us{
     background-color: rgb(221, 230, 237);
     width: 100%;
@@ -325,35 +327,51 @@ html, body{
     color: rgb(39, 55, 77);
 }
 #contact-row{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .contact-element{
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
+    align-items: center;
 }
 .contact-img-circle{
-    background-color: purple;
-    width: 200px;
-    height: 200px;
+    background-color: white;
+    width: 190px;
+    height: 190px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
 
 }
 .contact-element img{
-    background-color: deeppink;
-    width: 150px;
-    /* margin: auto; */
-    /* display: block; */
-
+    /* background-color: deeppink; */
+    width: 130px;
 }
+.contact-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-text a{
+    text-decoration: none;
+    color: rgb(39, 55, 77);
+}
+.contact-text p{
+    margin: none;
+}
+/* .contact-element-top{
+    background-color: pink;
+}
+.contact-element-bottom{
+    background-color: purple;
+} */
 
 
 #footer{
