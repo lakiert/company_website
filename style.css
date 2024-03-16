@@ -366,17 +366,9 @@ html, body{
 .contact-text p{
     margin: none;
 }
-/* .contact-element-top{
-    background-color: pink;
-}
-.contact-element-bottom{
-    background-color: purple;
-} */
 
 
-#footer{
-    background-color: rgb(39, 55, 77);
-}
+
 /* #footer a{
     padding: 20px;
     font-size: 30px;
@@ -392,7 +384,10 @@ html, body{
     color: white;
 } */
 
-#floating-div{
+
+
+
+/* #floating-div{
     display: flex;
     justify-content: center;
     background-color: greenyellow;
@@ -427,7 +422,69 @@ html, body{
     display: flex;
     justify-content: center;
     align-content: center;
+} */
+
+
+
+#footer{
+    background-color: rgb(39, 55, 77, .3);
+    position: fixed;
+    bottom: 10px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+#button-container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+}
+#button-go-up{
+    background: rgb(39, 55, 77);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#button-container a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+#socials{
+    display: flex;
+    flex-direction: row;
+}
+.social-button{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#button-fb{
+    background: #3B5998;
+}
+#button-twitter{
+    background: black;
+}
+#button-instagram{
+    background: #C13584;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+#button-phone{
+    background: green;
+}
+
+
 
 
 h2{
