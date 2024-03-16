@@ -376,8 +376,59 @@ html, body{
 
 #footer{
     background-color: rgb(39, 55, 77);
-
 }
+/* #footer a{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+#footer a:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+} */
+
+#floating-div{
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+#floating-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+#floating-container a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+#fb{
+    width: 70px;
+    height: 70px;
+    background: #3B5998;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#go-up{
+    width: 70px;
+    height: 70px;
+    background: rgb(39, 55, 77);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 
 h2{
     text-align: center;
