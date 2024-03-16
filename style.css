@@ -10,6 +10,10 @@ html, body{
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #div-start{
     background-color: rgb(157, 178, 191);;
     width: 100%;
@@ -483,7 +487,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 #button-phone{
     background: green;
 }
-
 
 
 
