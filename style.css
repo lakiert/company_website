@@ -5,9 +5,8 @@
 } */
 
 .preload {
-  background-image: url(img/g-pipes.webp), url(img/g-gas.webp),
-    url(img/g-furnace.webp);
-  display: none; /* Hide the element */
+  background-image: url(img/g-pipes.webp), url(img/g-gas.webp), url(img/g-furnace.webp);
+  display: none;
 }
 
 * {
